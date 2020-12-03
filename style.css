@@ -1,0 +1,82 @@
+body{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+
+	margin: 0;
+	font-family: helvetica;
+
+}
+
+
+
+
+header{background-color: #ff0000;
+	
+
+}
+
+header a img {
+	width: 30%;
+	
+
+}
+
+a{
+	text-decoration: none;
+	color: #666;
+}
+
+
+
+.main-wrapper{
+	
+
+	flex: auto;
+
+	display: flex;
+
+
+	}
+
+aside{
+	background-color: #ccc;
+	flex:1 ;
+
+	text-align: center;
+}
+
+
+main{
+	
+	flex: 2;
+
+	padding: 20px;
+
+}
+
+
+article{
+	box-shadow: 5px 5px 25px #666;
+
+	padding: 20px;
+}
+
+article img{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{background-color: #0000ff;
+
+
+}
